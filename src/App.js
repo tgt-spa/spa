@@ -11,13 +11,13 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/pages/target-spa/tgt-spa/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/pages/target-spa/tgt-spa/about">About</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/pages/target-spa/tgt-spa/users">Users</Link>
             </li>
           </ul>
         </nav>
@@ -25,13 +25,13 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/pages/target-spa/tgt-spa/about">
             <About />
           </Route>
-          <Route path="/users">
+          <Route path="/pages/target-spa/tgt-spa/users">
             <Users />
           </Route>
-          <Route path="/">
+          <Route path="/pages/target-spa/tgt-spa/">
             <Home />
           </Route>
         </Switch>
