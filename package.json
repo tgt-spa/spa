@@ -1,6 +1,6 @@
 {
   "name": "target-spa",
-  "homepage": "https://git.corp.adobe.com/pages/target-spa/tgt-spa/",
+  "homepage": "https://tgt-spa.github.io/spa/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
