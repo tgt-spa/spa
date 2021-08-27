@@ -8,16 +8,16 @@ import Home from "./pages/home/Home";
 export default function App() {
   return (
     <HashRouter>
-      <div>
-        <nav>
-          <ul>
-            <li>
+      <div id="spa">
+        <nav id="navigation">
+          <ul id="list">
+            <li id="home-link">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li id="about-link">
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li id="users-link">
               <Link to="/users">Users</Link>
             </li>
           </ul>
