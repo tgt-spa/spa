@@ -6107,11 +6107,11 @@ function triggerView(viewName) {
   }
 }
 //fire triggerView when the SPA loads and when the hash changes in the SPA
-if (window.location.pathname.indexOf("react/") > -1) {
+if (window.location.pathname.indexOf("/") > -1) {
   triggerView(location.hash);
 }
 window.onhashchange = function () {
-  if (window.location.pathname.indexOf("react/") > -1) {
+  if (window.location.pathname.indexOf("/") > -1) {
     triggerView(location.hash);
   }
 };
