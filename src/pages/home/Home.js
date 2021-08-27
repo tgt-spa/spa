@@ -2,12 +2,17 @@ import home from "../../resources/home.png";
 export default function Home() {
   return (
     <>
-      <h2 id="heading">Home</h2>
-      <a id="link" href="www.google.com">
+      <h2 id="heading-about">Home</h2>
+      <a id="link-about" href="www.google.com">
         Google
       </a>
-      <img id="image" style={{ display: "block" }} alt="home" src={home} />
-      <div id="first-dic">
+      <img
+        id="image-about"
+        style={{ display: "block" }}
+        alt="home"
+        src={home}
+      />
+      <div id="first-div-about">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         posuere rutrum facilisis. Ut rutrum egestas purus, et mattis mauris
         porta a. Pellentesque sit amet rutrum risus. Interdum et malesuada fames
@@ -17,7 +22,7 @@ export default function Home() {
         consectetur eget orci. Nullam vitae venenatis nulla, eu efficitur dolor.
         Morbi varius semper dolor, vel bibendum enim finibus volutpat.
       </div>
-      <p id="first-paragraph">
+      <p id="first-paragraph-about">
         Nunc consequat, turpis et blandit cursus, ligula sem volutpat ante, nec
         convallis diam enim sit amet sem. Sed fringilla pharetra felis, in
         lacinia metus mattis et. Vestibulum varius vestibulum mauris ut semper.
@@ -25,7 +30,7 @@ export default function Home() {
         enim vulputate aliquet. Duis consequat tortor nisi, efficitur aliquet
         velit pretium at. Proin faucibus risus leo, at dapibus quam lacinia ac.
       </p>
-      <p id="second-paragraph">
+      <p id="second-paragraph-about">
         Maecenas ullamcorper nibh sed sodales porta. Quisque bibendum quam
         vulputate congue finibus. Nam pulvinar vestibulum ex vitae lacinia.
         Donec gravida augue mauris, eu bibendum massa condimentum sed. In a

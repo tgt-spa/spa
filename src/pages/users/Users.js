@@ -2,13 +2,18 @@ import caramelo from "../../resources/caramelo.jpg";
 export default function Users() {
   return (
     <>
-      <h2>Users</h2>
-      <a id="link" href="www.google.com">
+      <h2 id="heading-users">Users</h2>
+      <a id="link-users" href="www.google.com">
         Google
       </a>
-      <img id="image" style={{ display: "block" }} alt="dog" src={caramelo} />
+      <img
+        id="image-users"
+        style={{ display: "block" }}
+        alt="dog"
+        src={caramelo}
+      />
 
-      <div id="first-dic">
+      <div id="first-div-users">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         posuere rutrum facilisis. Ut rutrum egestas purus, et mattis mauris
         porta a. Pellentesque sit amet rutrum risus. Interdum et malesuada fames
@@ -18,7 +23,7 @@ export default function Users() {
         consectetur eget orci. Nullam vitae venenatis nulla, eu efficitur dolor.
         Morbi varius semper dolor, vel bibendum enim finibus volutpat.
       </div>
-      <p id="first-paragraph">
+      <p id="first-paragraph-users">
         Nunc consequat, turpis et blandit cursus, ligula sem volutpat ante, nec
         convallis diam enim sit amet sem. Sed fringilla pharetra felis, in
         lacinia metus mattis et. Vestibulum varius vestibulum mauris ut semper.
@@ -26,7 +31,7 @@ export default function Users() {
         enim vulputate aliquet. Duis consequat tortor nisi, efficitur aliquet
         velit pretium at. Proin faucibus risus leo, at dapibus quam lacinia ac.
       </p>
-      <p id="second-paragraph">
+      <p id="second-paragraph-users">
         Maecenas ullamcorper nibh sed sodales porta. Quisque bibendum quam
         vulputate congue finibus. Nam pulvinar vestibulum ex vitae lacinia.
         Donec gravida augue mauris, eu bibendum massa condimentum sed. In a
