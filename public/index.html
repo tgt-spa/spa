@@ -9,6 +9,9 @@
       window._AT.config = Object.assign({}, window._AT.config, {
         checkAllowedOrigin: false,
       });
+      window.targetGlobalSettings = {
+        cookieDomain: "tgt-spa.github.io", // set cookies on the subdomain
+      };
     </script>
     <script>
       var digitalData = {
