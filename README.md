@@ -51,3 +51,19 @@ window.onhashchange = function () {
  }
 };
 ```
+
+## Adding mboxes
+
+Install https://www.npmjs.com/package/@adobe/target-react-component/v/0.4.2
+Follow the instructions from the link above:
+
+```
+import createTargetComponent from '@adobe/target-react-component';
+const Target = createTargetComponent(React);
+
+...
+
+<Target data-mbox="testMbox">
+ Default mbox content
+</Target>
+```
