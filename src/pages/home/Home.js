@@ -51,7 +51,7 @@ export default function Home() {
           data-mbox="ioana"
           indutry="IT"
           country="Romania"
-          data-timeout="5"
+          data-timeout="30"
         />
       </div>
     </>
