@@ -49,7 +49,7 @@ export default function Home() {
       <div id="for-mbox">
         <Target
           data-mbox="ioana"
-          indutry="IT"
+          industry="IT"
           country="Romania"
           data-timeout="1000"
         />
